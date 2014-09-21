@@ -228,3 +228,7 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+ChemIdentify/ChemIdentify.vcxproj.filters
+ChemIdentify.sln
+ChemIdentify/ChemIdentify.vcxproj
+*.jpg
