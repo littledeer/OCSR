@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+        <IncludePath>$(GOCR_HOME)\include;$(OCRAD_HOME)\include;$(TESSDATA_PREFIX)\include\tesseract;$(IncludePath)</IncludePath>
+        <LibraryPath>$(GOCR_HOME)\lib;$(OCRAD_HOME)\lib;$(TESSDATA_PREFIX)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+        <Link>
+          <AdditionalDependencies>libgocrd.lib;libocradd.lib;libtesseract302d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+        </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
